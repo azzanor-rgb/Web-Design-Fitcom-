@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#navbarNav a {
+    text-decoration: none;
+    color: black;
+    margin: 5px 2px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+#navbarNav a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+#navbarNav .btn1:hover {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.container h1,
+h2,
+h4,
+h5 {
+    font-family: 'Rowdies', sans-serif;
+}
+
+p,
+.card a {
+    font-family: 'Roboto Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.navbar a {
+    font-family: 'Roboto Flex', sans-serif;
+}
